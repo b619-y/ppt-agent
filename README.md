@@ -31,3 +31,7 @@ python3 模板/make_slide.py 模板/slide_template.json --preview
 执行前先把模板 JSON 里的示例文案、图片路径、图表数据和来源改为本项目内容。PDF 裁剪需要 Poppler（`pdftoppm`）；PPTX 转 PDF 预览需要 LibreOffice。所有新文字指定微软雅黑；为获得一致的图表预览，运行环境需安装 Microsoft YaHei。
 
 `input/` 和 `output/` 的文件默认被 Git 忽略，避免论文、数据和成品被误传到仓库。
+
+## 许可证
+
+本项目采用 [MIT 许可证](LICENSE)。
