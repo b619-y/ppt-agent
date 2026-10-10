@@ -1,0 +1,16 @@
+# 用户资料与生成结果不得自动纳入仓库
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
+__pycache__/
+*.py[cod]
+.DS_Store
+*.pdf
+*.pptx
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.webp
